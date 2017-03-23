@@ -3,23 +3,19 @@ $(document).ready(function() {
 	$("#skills-link").click(function(){
     	$(".skills").fadeIn(3000).addClass("selected");
     	if ($(".contact").hasClass('selected') === true) {
-    		$(".contact").();
+    		$(".contact").hide();
     	}
 });
 
 	$("#contact-link").click(function() {
-		$(".contact").fadeIn(3000);
+		$(".contact").fadeIn(3000).addClass("selected");
+		if ($(".skills").hasClass('selected') === true) {
+			$(".skills").hide();
+		}
 	});
 
 
 });
 
 
-if ($(this).hasClass('') === false) {
-        $("body").append($(this).prop("tagName") + " has a proper class defined <br/>");
-    }
 
-
-    $("#hide").click(function(){
-    $("p").hide();
-});
