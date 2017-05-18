@@ -1,161 +1,36 @@
 
+font-family: 'Port Lligat Slab', serif;
+font-family: 'Wire One', sans-serif;
+font-family: 'Megrim', cursive;
+
 .container {
 	margin: 50px;
+	padding: 10px;
 	border: 1px solid black;
-	font-family:'Philosopher', sans-serif;
-}
-
-
-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding-top: 20px;
-	font-size: 30px;
-	margin-bottom: 20px;
 
 }
 
-.header-circle {
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: center;
-	width: 200px;
-	height: 200px; 
-  	border: 1px solid;
-  	border-color: #f2e96f;
-  	text-align: center;
-  	margin-right: 10px;
-  	margin-left: 10px;
-  	background-color: #f2e96f;
-  	color: white;
-}
 
-.content-container {
-	margin-left: 10px;
-	margin-right: 10px;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
 
-}
 
-a {
-	color: #f2e96f;
-	text-decoration: none;
+h1 {
+	color: #5476EA;
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Megrim', cursive;
 
-}
-
-nav p {
-	padding-left: 5px;
-	padding-right: 5px;
-	color: #f2e96f;
-}
-
-main {
-	display: flex;
-	padding-left: 20px;
 }
 
 nav {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-
-	font-size: 20px;
-
+	flex-direction: row;
+	justify-content: space-around;
 }
 
-section {
 
-
-}
-
-.About {
-	padding: 10px;
-}
-
-.contact {
-	margin: 40px;
-	padding: 20px;
-}
-
-form {
-	font-size: 20px;
-	text-align: center;
-}
-
-input[type="text"] {
-    width: 150px;
-    margin-bottom: 10px;
-    background-color: white;
-    border-radius: 5px;
-    height: 30px;
-    border: 8px solid #f2e96f;
-    outline: none;
-}
-
-input[type="email"]  {
-	width: 150px;
-    margin-bottom: 10px;
-    background-color: white;
-    border-radius: 5px;
-    height: 30px;
-    border: 8px solid #f2e96f;
-    outline: none;
-
-}
-
-input[type="submit"] {
-    width: 170px;
-    height: 50px;
-    background-color: gray;
-    font-family: 'Philosopher', sans-serif;
-    font-size: 20px;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin-top: 30px;
-   }
-
-.skills {
+#resume {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	border: 1px solid;
-	align-items: baseline;
-	align-content: center;
-	display: none;
+	justify-content: space-around;
+
 }
-
-ul {
-	list-style: none;
-	font-size: 20px;
-	font-family:'Open Sans Condensed', sans-serif;
-	line-height: 2em;
-}
-
-
-.list-header {
-	text-align: center;
-	color: orange;
-	font-weight: bold;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-h1 {
-	text-align: center;
-	font-size: 20px;
-}
-
-.skill-set {
-	margin: 0px 10px 0px 10px;
-}
-
-.hide {
-	display: none;
-}
-
