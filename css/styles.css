@@ -12,15 +12,21 @@ body {
 	margin: 40px;
 	line-height: 175%;
 	border: 1px solid black;
+	border-radius: 10px;
 }
 
 h1 {
 	color: #5476EA;
 	text-align: center;
 	font-size: 35px;
-	font-family: 'Megrim', cursive;
-
+	font-family: 'Megrim', cursive; 
 }
+
+#about p {
+	padding: 20px;
+}
+
+
 
 nav {
 	display: flex;
@@ -54,8 +60,9 @@ i {
 }
 
 img {
-	width: 600px;
+	width: 525px;
 	border: 1px solid black;
 	border-radius: 10px;
 	padding: 20px;
+	margin: 15px;
 }
