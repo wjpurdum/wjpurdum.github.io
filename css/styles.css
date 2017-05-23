@@ -10,13 +10,17 @@ body {
 header {
 	position: fixed;
 	background-color: white;
-	color: yellow;
 	text-align: center;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	top: 0;
 	left: 0;
+	font-family: 'Gilda Display', serif;
+	border: 5px solid;
+	border-bottom-color: #FC4E49;
+	border-top-color: white;
+	border-left-color: white;
 	
 }
 
@@ -26,26 +30,26 @@ header {
 	text-align: center;
 	align-items:center;
 	justify-content: flex-start
-
-
 }
 
 
 #about {
-	margin-top: 200px;
-	margin-bottom: 100px;
+	margin-top: 125px;
+	margin-bottom: 50px;
 	margin-right: 50px;
 	margin-left: 50px;
 	line-height: 175%;
 	border: 1px solid black;
 	border-radius: 10px;
+	font-family: 'Halant', serif;
 }
 
 h1 {
-	color: #5476EA;
+	color: #200C35;
+	font-weight: bold;
 	text-align: center;
 	font-size: 35px;
-	font-family: 'Megrim', cursive; 
+	font-family: 'Gilda Display', serif;
 	padding-left: 30px;
 	padding-right: 20px;
 }
@@ -53,10 +57,18 @@ h1 {
 header p {
 	padding-left: 15px;
 	padding-right: 15px;
+	font-size: 25px;
+	transition: transform .5s;
+}
+
+header p:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 #about p {
 	padding: 20px;
+	font-family: 'Halant', serif;
 }
 
 
@@ -73,10 +85,20 @@ header p {
 #resume {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	border: 1px solid black;
+	justify-content: center;
+	font-family: 'Halant', serif;
+	margin: 130px 0 300px 0;
+
 
 }
+
+#resume p {
+	padding: 0 40px 0 40px;
+	font-size: 30px;
+	line-height: 150%;
+}
+
+/*make this generic*/
 
 .footer-icons {
 	display: flex;
@@ -89,24 +111,39 @@ i {
 	size: 100%;
 }
 
+#languages img {
+	height: 100px;
+	padding: 30px;
+}
+
+#languages {
+	margin-bottom: 40px;
+}
+
 .project {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
 
-img {
+.project-image {
 	width: 525px;
-	border: 1px solid black;
+	border: 1px solid #878D89;
 	border-radius: 10px;
 	padding: 20px;
 	margin: 15px;
 }
 
-#projects {
-	border: 1px solid black;
-	margin-top: 15px;
 
+.project-summary {
+	padding: 20px;
+	font-family: 'Halant', serif;
+}
+
+
+#projects {
+	margin-top: 15px;
+	font-size: 18px;
 }
 
 .narrow-flex{
