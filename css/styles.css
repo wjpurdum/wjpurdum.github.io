@@ -45,7 +45,7 @@ header {
 }
 
 h1 {
-	color: #200C35;
+	color: #FC4E49;
 	font-weight: bold;
 	text-align: center;
 	font-size: 35px;
@@ -71,6 +71,11 @@ header p:hover {
 	font-family: 'Halant', serif;
 }
 
+
+a{
+	text-decoration: none;
+	color: #323133;
+}
 
 
 
