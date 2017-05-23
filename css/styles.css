@@ -1,15 +1,41 @@
 
 
 body {
-	margin: 50px;
+	/*margin: 50px;
 	padding: 10px;
-	border: 1px solid black;
+	border: 1px solid black;*/
+
+}
+
+header {
+	position: fixed;
+	background-color: white;
+	color: yellow;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items:center;
+	justify-content: flex-start
+
 
 }
 
 
 #about {
-	margin: 40px;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	margin-left: 50px;
 	line-height: 175%;
 	border: 1px solid black;
 	border-radius: 10px;
@@ -20,11 +46,20 @@ h1 {
 	text-align: center;
 	font-size: 35px;
 	font-family: 'Megrim', cursive; 
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+header p {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #about p {
 	padding: 20px;
 }
+
+
 
 
 
@@ -71,5 +106,12 @@ img {
 #projects {
 	border: 1px solid black;
 	margin-top: 15px;
+
+}
+
+.narrow-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 
 }
