@@ -15,10 +15,10 @@
 
     <header>
       <h1>Whitney Purdum</h1>
-      <nav>
-        <p>Projects</p>
-        <p>Resume</p>
-        <p>Connect</p>
+      <nav class="flex">
+        <p> <a href="#projects">Projects</a></p>
+        <p><a href="#resume">Resume</a></p>
+        <p><a href="#contact">Connect</a></p>
       </nav>
     </header>
    
@@ -39,7 +39,15 @@
             <img src="images/ProjectOne.png">
           </div>
           <div class='project-summary'>
-            <p>This is a summary of project one</p>
+            <p>This is an Arabic grammar quiz. Users must answer a question within 30 seconds. At the end of the quiz, the quiz suggests grammar points that need attention based on questions that the user answered incorrectly. </p>
+            <div class = "flex">
+              <p>HTML5</p>
+              <p>JavaScript</p>
+            </div>
+            <div class = "flex">
+              <p>See Code</p>
+              <p>Launch</p>
+            </div>
           </div>
         </div>
         <div id="project-two" class="project">
@@ -47,7 +55,14 @@
             <img src="images/ProjectTwo.png">
           </div>
           <div class='project-summary'>
-            <p>This is a summary of project two</p>
+            <p>This is an interactive database of folk, string and bluegrass programs on public radion stations in the MidAtlantic region. I implemented user authentication to allow users to "favorite" programs that they like, and then reference all their favorite programs and their relevant information on a "favorites" page.</p>
+              <div class = "flex">
+                <p>Ruby on Rails</p>
+              </div>
+              <div class = "flex">
+                <p>See Code</p>
+                <p>Launch</p>
+              </div>
           </div>
         </div>
         <div id="project-three" class="project">
@@ -55,7 +70,17 @@
             <img src="images/ProjectThree.png">
           </div>
           <div class='project-summary'>
-            <p>This is a summary of project 3</p>
+            <p>This is a game history and comparison or "match-up" of teams in the Premier and English Champion Leagues. Users can see the match history of 2 teams within a league, as well has a single team's roster.</p>
+            <p> We used a Rails API and an external API to pull in the taem and game data.</p>
+              <div class = "flex">
+                <p>Angular JS</p>
+                <p>Ruby on Rails</p>
+                <p>3rd Party API</p>
+              </div>
+               <div class = "flex">
+                <i class="fa fa-code" aria-hidden="true"></i> <p>See Code</p> <i class="fa fa-code" aria-hidden="true"></i>
+                <p>Launch</p>
+              </div>
           </div>
         </div>
 
@@ -66,7 +91,7 @@
 
 
 
-    <footer>
+    <footer id="contact">
       <div class="footer-icons">
         <i class="fa fa-github" aria-hidden="true"></i>
         <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
