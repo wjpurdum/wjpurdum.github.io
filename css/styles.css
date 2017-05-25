@@ -34,14 +34,16 @@ header {
 
 
 #about {
-	margin-top: 125px;
-	margin-bottom: 50px;
+	margin-top: 175px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-bottom: 20px;
 	margin-right: 50px;
 	margin-left: 50px;
 	line-height: 175%;
-	border: 1px solid black;
-	border-radius: 10px;
 	font-family: 'Halant', serif;
+	border: 1px solid #FC4E49;
+	border-radius: 5px;
 }
 
 h1 {
@@ -63,13 +65,16 @@ header p {
 
 header p:hover {
   transform: scale(1.2);
-  color: yellow;
   cursor: pointer;
 }
 
+
+
 #about p {
-	padding: 20px;
-	font-family: 'Halant', serif;
+	padding: 7px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
 }
 
 
@@ -93,7 +98,7 @@ a{
 	flex-direction: row;
 	justify-content: center;
 	font-family: 'Halant', serif;
-	margin: 130px 0 300px 0;
+	margin: 50px 0 300px 0;
 
 
 }
@@ -102,6 +107,12 @@ a{
 	padding: 0 40px 0 40px;
 	font-size: 30px;
 	line-height: 150%;
+	transition: transform .5s;
+}
+
+#resume p:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 /*make this generic*/
@@ -149,6 +160,7 @@ i {
 
 #projects {
 	margin-top: 15px;
+	margin-bottom: 200px;
 	font-size: 18px;
 }
 
@@ -157,4 +169,13 @@ i {
 	flex-direction: row;
 	justify-content: center;
 
+}
+
+footer {
+	height: 200px;
+}
+
+#contact i {
+	width: 50px;
+	width: 50px;
 }
