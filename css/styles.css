@@ -34,7 +34,7 @@ header {
 
 
 #about {
-	margin-top: 175px;
+	margin-top: 150px;
 	padding-right: 30px;
 	padding-left: 30px;
 	margin-bottom: 20px;
@@ -98,16 +98,19 @@ a{
 	flex-direction: row;
 	justify-content: center;
 	font-family: 'Halant', serif;
-	margin: 50px 0 300px 0;
+	margin: 60px 0 200px 0;
+	height: 800px
 
 
 }
 
 #resume p {
-	padding: 0 40px 0 40px;
+	padding: 300px 40px 0 40px;
 	font-size: 30px;
 	line-height: 150%;
+	height: 400px;
 	transition: transform .5s;
+
 }
 
 #resume p:hover {
@@ -124,13 +127,21 @@ a{
 }
 
 i {
-	padding: 15px;
-	size: 100%;
+	/*padding: 15px;*/
+	/*size: 100%;*/
+	padding: 21px 15px 0px 15px
 }
 
 #languages img {
 	height: 100px;
 	padding: 30px;
+}
+
+.technologies {
+	text-align: center;
+	font-weight: bold;
+	color: #FC4E49;
+	margin: 0px;
 }
 
 #languages {
@@ -164,7 +175,7 @@ i {
 
 
 #projects {
-	margin-top: 15px;
+	margin-top: 300px;
 	margin-bottom: 200px;
 	font-size: 18px;
 }
@@ -176,6 +187,10 @@ i {
 
 }
 
+.flex p {
+	margin: 0;
+}
+
 footer {
 	height: 200px;
 }
@@ -184,3 +199,40 @@ footer {
 	width: 50px;
 	width: 50px;
 }
+
+@media screen and (max-width: 768px) and (min-width: 400px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	#about p {
+	padding: 5px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	}
+
+	.project-image {
+	width: 300px;
+	border: 1px solid #878D89;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 15px;
+	}
+
+	/*.project-image img {
+		width: 80px;
+	}*/
+
+
+.project {
+	display: block
+
+}
+}
+
+
