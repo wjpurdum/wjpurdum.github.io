@@ -34,7 +34,7 @@ header {
 
 
 #about {
-	margin-top: 150px;
+	margin-top: 130px;
 	padding-right: 30px;
 	padding-left: 30px;
 	margin-bottom: 20px;
@@ -50,7 +50,7 @@ h1 {
 	color: #FC4E49;
 	font-weight: bold;
 	text-align: center;
-	font-size: 35px;
+	font-size: 30px;
 	font-family: 'Gilda Display', serif;
 	padding-left: 30px;
 	padding-right: 20px;
@@ -177,7 +177,7 @@ i {
 }
 
 #contact-me {
-	padding-left: 400px;
+	padding-left: 300px;
 	font-size: 15px
 }
 
