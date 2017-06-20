@@ -16,7 +16,8 @@ header {
 	padding: 0;
 	top: 0;
 	left: 0;
-	font-family: 'Gilda Display', serif;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
 	border: 5px solid;
 	border-bottom-color: #FC4E49;
 	border-top-color: white;
@@ -51,7 +52,8 @@ h1 {
 	font-weight: bold;
 	text-align: center;
 	font-size: 30px;
-	font-family: 'Gilda Display', serif;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
 	padding-left: 30px;
 	padding-right: 20px;
 	margin-bottom: 0;
@@ -60,7 +62,8 @@ h1 {
 
 h2 {
 	font-size: 22px;
-	font-family: 'Gilda Display', serif;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
 	color: #323133;
 	text-align: left;
 	padding-left: 30px;
@@ -118,7 +121,8 @@ a{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	font-family: 'Halant', serif;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
 	margin: 60px 0 200px 0;
 	height: 800px
 
@@ -159,10 +163,14 @@ i {
 }
 
 .technologies {
+	font-size: 17;
 	text-align: center;
 	font-weight: bold;
 	color: #FC4E49;
+	padding-bottom: 5px;
 	margin: 0px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
 }
 
 #languages {
@@ -187,6 +195,13 @@ i {
 .project-summary {
 	padding: 40px;
 	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.title {
+	text-align: center;
+	color: #FC4E49;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400
 
 }
 
